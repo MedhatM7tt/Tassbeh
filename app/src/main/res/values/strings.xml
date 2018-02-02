@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tassbeh</string>
+    <string name="Tasbeh_sala">تسبيح ما بعد الصلاة</string>
+    <string name="Tasbeh_3am">عداد لك</string>
+    <string name="sob7an">سبحان الله</string>
+    <string name="elhamulillah">الحمد لله</string>
+    <string name="AllahAkber">اللهُ أكبر</string>
+    <string name="t3dad">التعداد :</string>
+    <string name="Press">عِد</string>
+    <string name="Reset">ابدأ من جديد</string>
+    <string name="DontForget">تقبل الله منكم صالح الاعمال و لا تنسونا ف الدعاء ^_^</string>
+</resources>

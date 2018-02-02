@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.medhatmhtt.tassbeh.MainActivity">
+
+    <Button
+        android:id="@+id/Tasbeh_sala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/mybutton"
+        android:onClick="after"
+        android:padding="14dp"
+        android:text="@string/Tasbeh_sala" />
+
+    <Button
+        android:id="@+id/Tasbeh_3am"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/mybutton"
+        android:onClick="forU"
+        android:padding="14dp"
+        android:text="@string/Tasbeh_3am" />
+
+    <ImageView
+        android:layout_width="402dp"
+        android:layout_height="352dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ka3ba" />
+</LinearLayout>
