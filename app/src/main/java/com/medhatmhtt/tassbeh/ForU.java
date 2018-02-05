@@ -1,6 +1,7 @@
 package com.medhatmhtt.tassbeh;
 
 import android.app.Activity;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -21,5 +22,10 @@ public class ForU extends Activity {
         Adad=0;
         TextView t3dadText=(TextView) findViewById(R.id.AdadForU);
         t3dadText.setText(""+Adad);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
     }
 }

@@ -1,10 +1,12 @@
 package com.medhatmhtt.tassbeh;
 
 import android.app.Activity;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class AfterSalah extends Activity {
     private int t3dadSob7an=0,t3dadElhamd=0,t3dadTakber=0;
@@ -13,6 +15,12 @@ public class AfterSalah extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.after_layout);
     }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+    }
+
     public void sob7an(View view){
         TextView t3dadText=(TextView) findViewById(R.id.Adad);
         if(t3dadSob7an<33){
